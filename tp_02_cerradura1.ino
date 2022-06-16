@@ -136,7 +136,7 @@ void reset()
 {
   lcd.setCursor(0,0);
   lcd.print("PASSWORD:       ");
-  strcpy(password,"       ");
+  strcpy(password,"      ");
   indice = 0;
   contFive = 0;
   flag = 0;
